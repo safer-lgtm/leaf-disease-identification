@@ -30,7 +30,7 @@ def predict_image(model, img_data):
 
 # Streamlit UI
 st.set_page_config(page_title="Plant Disease Classifier", layout="centered")
-st.title("🌿Pflanzenkrankheiten - VGG16🌿")
+st.title("🌿Pflanzenkrankheiten - VGG16")
 
 #st.image("data/logo.jpeg", width=200)
 
