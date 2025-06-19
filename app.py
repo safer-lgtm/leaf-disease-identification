@@ -4,15 +4,13 @@ from tensorflow import keras
 print(tf.version.VERSION)
 
 import streamlit as st
-from tensorflow.keras import models
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 import json
 
 # Model laden
-model = models.load_model(
-    "best_model.h5"
-)
+model = tf.keras.models.load_model('best_model.h5')
+#model.summary()
 
 # Labels laden
 with open("data/class_indices.json", "r") as f:
@@ -32,9 +30,9 @@ def predict_image(model, img_data):
 
 # Streamlit UI
 st.set_page_config(page_title="Plant Disease Classifier", layout="centered")
-st.title("🌿 Erkennung von Pflanzenkrankheiten mittels VGG16")
+st.title("🌿Pflanzenkrankheiten - VGG16🌿")
 
-st.image("data/logo.jpeg", width=200)
+#st.image("data/logo.jpeg", width=200)
 
 uploaded_file = st.file_uploader("Wähle ein Blattbild (.jpg, .jpeg, .png)", type=["jpg", "jpeg", "png"])
 

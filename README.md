@@ -1,4 +1,4 @@
-# Pflanzenkrankheiten-Klassifikator mit VGG16 und Streamlit
+# Pflanzenkrankheiten-Klassifikator mit VGG16 und Streamlit UI
 
 Dieses Projekt nutzt ein **Transfer-Learning-Modell (VGG16)**, um Pflanzenkrankheiten anhand von Blattbildern zu erkennen. Eine interaktive Benutzeroberfläche (GUI) mit [Streamlit](https://streamlit.io/) ermöglicht es, Bilder hochzuladen und Vorhersagen in Echtzeit zu erhalten.
 
@@ -11,11 +11,11 @@ Dieses Projekt nutzt ein **Transfer-Learning-Modell (VGG16)**, um Pflanzenkrankh
 
 ## Anforderungen & Einrichtung
 
-### Virtuelle Umgebung mit `venv` einrichten
+### Virtuelle Umgebung mit `.venv` einrichten
 
 ```bash
 # 1. Virtuelle Umgebung erstellen
-python -m venv venv
+python -m venv .venv
 
 # 2. Umgebung aktivieren
 # Windows:
@@ -49,6 +49,9 @@ streamlit run app.py
 ```
 
 ## Beispielausgabe
+![alt text](image.png)
+
+## App in Streamlit Cloud
 
 
 ## Referenzen
