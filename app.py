@@ -9,7 +9,7 @@ import numpy as np
 import json
 
 # Model laden
-model = tf.keras.models.load_model('best_model.h5')
+model = tf.keras.models.load_model('outputs/best_model.h5')
 #model.summary()
 
 # Labels laden
