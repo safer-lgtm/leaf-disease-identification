@@ -49,7 +49,7 @@ streamlit run app.py
 ```
 
 ## Beispielausgabe
-![alt text](image.png)
+![alt text](outputs/result.png)
 
 ## App in Streamlit Cloud
 
