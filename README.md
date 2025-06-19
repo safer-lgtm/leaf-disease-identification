@@ -1,6 +1,6 @@
-# Pflanzenkrankheiten-Klassifikator mit VGG16 und Taipy GUI
+# Pflanzenkrankheiten-Klassifikator mit VGG16 und Streamlit
 
-Dieses Projekt nutzt ein **Transfer-Learning-Modell (VGG16)**, um Pflanzenkrankheiten anhand von Blattbildern zu erkennen. Eine interaktive Benutzeroberfläche (GUI) mit [Taipy](https://www.taipy.io/) ermöglicht es, Bilder hochzuladen und Vorhersagen in Echtzeit zu erhalten.
+Dieses Projekt nutzt ein **Transfer-Learning-Modell (VGG16)**, um Pflanzenkrankheiten anhand von Blattbildern zu erkennen. Eine interaktive Benutzeroberfläche (GUI) mit [Streamlit](https://streamlit.io/) ermöglicht es, Bilder hochzuladen und Vorhersagen in Echtzeit zu erhalten.
 
 ## Funktionen
 - Deep-Learning-Modell auf Basis von VGG16 (Keras)
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 2. Starte die Anwendung:
 
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ## Projektstruktur
@@ -57,4 +57,6 @@ python app.py
 
 - Transfer Learning - VGG16 aus dem [Blog](https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4/)
 
-- Taipy GUI angepasst zu dieses [Repository](https://github.com/MariyaSha/ml_gui_app)
+- Inspiriert von Taipy GUI [Repository](https://github.com/MariyaSha/ml_gui_app)
+
+- Host Anwendung in [Cloud](https://streamlit.io/cloud)
