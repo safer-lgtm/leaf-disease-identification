@@ -40,12 +40,12 @@ streamlit run app.py
 
 ```
 .
-├── app.py                # Hauptskript mit Taipy GUI
-├── best_model.keras      # VGG16-Modell (trainiert)
-├── requirements.txt      # Paketabhängigkeiten
-├── README.md             # Diese Dokumentation
-├── logo.png              # Optionales Logo für die GUI
-└── venv/                 # Virtuelle Umgebung
+├── data/demo_dataset          # Samples für Pflanzen
+├── app.py                     # Hauptskript mit Taipy GUI
+├── outputs/best_model.h5      # VGG16-Modell (nur Fully Connected Layer trainiert)
+├── requirements.txt           # Paketabhängigkeiten
+├── README.md                  # Diese Dokumentation
+└── .gitignore                 
 ```
 
 ## Beispielausgabe
@@ -54,6 +54,8 @@ streamlit run app.py
 ## App in Streamlit Cloud
 
 - [Link](https://leaf-disease-identification.streamlit.app/)
+
+Ein Sample Datensatz ist unter `data/demo_dataset` zu finden.
 
 ## Referenzen
 
