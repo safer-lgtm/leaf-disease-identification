@@ -53,4 +53,8 @@ python app.py
 
 ## Referenzen
 
-Trainiert mit dem nich augmentierten [Datensatz](https://data.mendeley.com/datasets/tywbtsjrjv/1)
+- Trainiert mit dem nich augmentierten [Datensatz](https://data.mendeley.com/datasets/tywbtsjrjv/1)
+
+- Transfer Learning - VGG16 aus dem [Blog](https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4/)
+
+- Taipy GUI angepasst zu dieses [Repository](https://github.com/MariyaSha/ml_gui_app)
