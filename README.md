@@ -53,6 +53,7 @@ streamlit run app.py
 
 ## App in Streamlit Cloud
 
+- [Link](https://leaf-disease-identification.streamlit.app/)
 
 ## Referenzen
 
