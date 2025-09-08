@@ -5,7 +5,7 @@ Dieses Projekt nutzt ein **Transfer-Learning-Modell (VGG16)**, um Pflanzenkrankh
 ## Funktionen
 - Deep-Learning-Modell auf Basis von VGG16 (Keras)
 - Bilderkennung für **38 Klassen von Pflanzenkrankheiten**
-- Webbasierte Benutzeroberfläche mit Taipy
+- Webbasierte Benutzeroberfläche mit Streamlit
 - Ausgabe der vorhergesagten Klasse und Wahrscheinlichkeit
 
 
